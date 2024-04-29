@@ -1,6 +1,6 @@
 # Fluid Landing Page Design 🔥
 
-Hello I'm Krunal Gohel and this is landing page design with responsive.! 🎉 
+When I embarked on the project to design a landing page using HTML, CSS, and Bootstrap with a focus on responsiveness, I began by outlining the key elements and objectives of the page. I liked the versatility that Bootstrap offered, allowing me to create a visually appealing layout while ensuring compatibility across various devices. However, I encountered some challenges when fine-tuning the responsiveness for smaller screen sizes, particularly in balancing the placement and sizing of elements to maintain both aesthetics and functionality. 
 
 # Tech Stack Used in this Project 📋
 
