@@ -1,0 +1,72 @@
+/* For Laptop and Above Screen */
+@media (min-width:1440px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1440px;
+        padding: 0 75px;
+    }
+}
+
+/* For Tablet and Below Screen */
+@media (max-width:991px) {
+    .menu-toggler {
+        display: block;
+    }
+    .left-side-links, .right-side-links,
+    .navbar .search-button,.navbar .user-button {
+        display: none;
+    }
+    .offcanvas-body .icon-bar {
+        justify-content: center;
+    }
+    .content-card {
+        width: 100%;
+        height: auto;
+    }
+    #real-life-section {
+        background-size: contain;
+    }
+}
+
+/* For Mobile Screen */
+@media (max-width:575px) {
+    .button-group {
+        display: block;
+    }
+    .hero-title {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .content-card {
+        padding: 25px 25px 25px 60px;
+    }
+    .fill-btn, .outline-btn {
+        display: block;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    #product-section {
+        padding: 25px;
+        margin-left: 0;
+    }
+    .product-slider .slide-arrow.next-arrow {
+        right: 0;
+    }
+    #real-life-section {
+        height: 540px;
+        padding: 25px;
+        background-position: bottom;
+    }
+    #ultimate-guide-secion {
+        padding: 25px;
+    }
+    .section-heading {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    footer .copyright-part {
+        flex-direction: column;
+    }
+    footer .link-part, footer .email-part {
+        padding: 25px 0;
+    }
+}
